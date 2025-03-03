@@ -1,0 +1,11 @@
+
+---
+streamlit
+pandas
+numpy
+yfinance
+plotly
+prophet
+tensorflow
+scikit-learn
+streamlit-option-menu
