@@ -13,6 +13,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import time
+from snowflake.snowpark.context import get_active_session
+
 
 # Set up yfinance cache directory
 os.environ["YFINANCE_CACHE_DIR"] = "/tmp"
